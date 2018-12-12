@@ -5,7 +5,7 @@ const Description = () => {
 	return (
 		<Fade>
 			<div className="center_wrapper">
-				<div className="highlight_description">
+				<div className="bio_description">
 					<p>
 						Fort d'une solide expérience acquise dans différentes
 						entreprises en tant que salarié, je suis depuis 1an en
@@ -17,7 +17,7 @@ const Description = () => {
 						l'entreprenariat me pousse toujours à comprendre le
 						produit sur lequel je travaille, son contexte et son
 						positionnement sur un marché.{' '}
-						<span className="highlight_description_mclef">
+						<span className="bio_description_mclef">
 							Développeur full-stack Javascript et PHP
 						</span>
 						, je possède plusieurs années d’expériences sur ces
@@ -25,11 +25,11 @@ const Description = () => {
 					</p>
 					<p>
 						Je suis en mesure de développer des{' '}
-						<span className="highlight_description_mclef">
+						<span className="bio_description_mclef">
 							API REST (Node, PHP)
 						</span>
 						, des applications mobiles{' '}
-						<span className="highlight_description_mclef">
+						<span className="bio_description_mclef">
 							(React-native)
 						</span>
 						, aussi bien que des interfaces utilisateurs complexes.
@@ -44,9 +44,7 @@ const Description = () => {
 						Je me suis spécialisé ces dernières années dans le
 						développement d’UI basé sur des lib Js, plus
 						particulièrement{' '}
-						<span className="highlight_description_mclef">
-							React
-						</span>{' '}
+						<span className="bio_description_mclef">React</span>{' '}
 						avec lequel je possède une forte expertise. J'accorde
 						une place importante à l'UX lors de mes réalisation. Je
 						suis capable d'intervenir sur toutes les étapes d'un

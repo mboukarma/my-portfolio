@@ -1,12 +1,12 @@
 import React from 'react';
 import Description from './Description';
-import Discount from './Discount';
+import Skills from './Skills';
 
 const Bio = () => {
 	return (
 		<div className="highlight_wrapper">
 			<Description />
-			<Discount />
+			<Skills />
 		</div>
 	);
 };

@@ -19,13 +19,13 @@ class ExperienceProf extends Component {
 	showBoxes = () =>
 		this.state.dates.map((box, i) => (
 			<Zoom delay={this.state.delay[i]} key={i}>
-				<div className="pricing_item">
-					<div className="pricing_inner_wrapper">
-						<div className="pricing_title">
+				<div className="exp_item">
+					<div className="exp_inner_wrapper">
+						<div className="exp_title">
 							<span>{this.state.dates[i]}</span>
 							<span>{this.state.fonctions[i]}</span>
 						</div>
-						<div className="pricing_description">
+						<div className="exp_description">
 							{this.state.desc[i]}
 						</div>
 					</div>
@@ -36,10 +36,10 @@ class ExperienceProf extends Component {
 	render() {
 		return (
 			<div className="bck_red">
-				<div className="center_wrapper_formation pricing_section">
+				<div className="center_wrapper_formation exp_section">
 					<h2>EXPÉRIENCES PROFESSIONNELLES</h2>
 
-					<div className="pricing_wrapper">{this.showBoxes()}</div>
+					<div className="exp_wrapper">{this.showBoxes()}</div>
 				</div>
 			</div>
 		);

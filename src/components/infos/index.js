@@ -3,21 +3,19 @@ import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 
 import mhd_photo from '../../resources/images/mhd.JPG';
-import facebook_icon from '../../resources/images/icons/facebook.png';
-import linkedin_icon from '../../resources/images/icons/linkedin.png';
 
 export default class Info extends Component {
 	render() {
 		return (
 			<div className="bck_black">
-				<div className="center_wrapper_formation pricing_section">
+				<div className="center_wrapper_formation info_section">
 					<h2>À PROPOS DE MOI</h2>
 
 					<div className="center_wrapper_tech">
-						<div className="discount_wrapper">
+						<div className="info_wrapper">
 							<Fade>
 								<div
-									className="discount_porcentage"
+									className="info_img"
 									style={{
 										background: `url(${mhd_photo})`,
 										height: '330px',
@@ -44,7 +42,7 @@ export default class Info extends Component {
 									<p>+212662886543</p>
 									<p>mr.boukarma@gmail.com</p>
 									<p>
-										https://mboukarma.github.io/portefolio/
+										https://mboukarma.github.io/my-portfolio/
 									</p>
 									<p>Informatique, Football</p>
 								</div>

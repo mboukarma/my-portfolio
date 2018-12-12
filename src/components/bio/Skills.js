@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import { Line } from 'rc-progress';
 
-class Discount extends Component {
+class Skills extends Component {
 	state = {
 		discountStart: 0,
 		reactStart: 0,
@@ -47,13 +47,13 @@ class Discount extends Component {
 	render() {
 		return (
 			<div className="center_wrapper_tech">
-				<div className="discount_wrapper">
+				<div className="skills_wrapper">
 					<Fade onReveal={() => this.porcentage()}>
-						<div className="discount_porcentage">
+						<div className="skills_porcentage">
 							<span>{this.state.discountStart}%</span>
 						</div>
 					</Fade>
-					<div className="discount_description">
+					<div className="skills_description">
 						<h3>TECHNOLOGIES QUE J'UTILISE ACTUELLEMENT</h3>
 						<p>
 							React {'  '}
@@ -101,4 +101,4 @@ class Discount extends Component {
 	}
 }
 
-export default Discount;
+export default Skills;

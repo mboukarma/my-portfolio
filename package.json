@@ -7,8 +7,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "webpack-dev-server --config webpack.dev.js",
 		"build": "webpack --config webpack.prod.js",
-		"rdeploy": "gh-pages build",
-		"deploy": "gh-pages -m gh-pages -d build"
+		"rdeploy": "gh-pages dist",
+		"deploy": "gh-pages -b gh-pages -d dist"
 	},
 	"repository": {
 		"type": "git",
@@ -19,7 +19,7 @@
 	"bugs": {
 		"url": "https://github.com/mboukarma/my-portfolio/issues"
 	},
-	"homepage": "https://github.com/mboukarma/my-portfolio#readme",
+	"homepage": "https://github.com/mboukarma/my-portfolio",
 	"dependencies": {
 		"@material-ui/core": "^1.2.0",
 		"@material-ui/icons": "^1.1.0",
